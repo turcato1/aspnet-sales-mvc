@@ -5,10 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Departments\**" />
     <Compile Remove="Views\NewFolder\**" />
+    <Content Remove="Views\Departments\**" />
     <Content Remove="Views\NewFolder\**" />
+    <EmbeddedResource Remove="Views\Departments\**" />
     <EmbeddedResource Remove="Views\NewFolder\**" />
+    <None Remove="Views\Departments\**" />
     <None Remove="Views\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\DepartmentsController.cs" />
   </ItemGroup>
 
   <ItemGroup>
